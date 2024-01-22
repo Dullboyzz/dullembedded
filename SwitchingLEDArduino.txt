@@ -1,0 +1,16 @@
+int animationSpeed=0;
+void setup()
+{
+  pinMode(8,OUTPUT);
+}
+void loop()
+  {
+  animationSpeed=400;
+  digitalWrite(8,HIGH);
+  delay(1000);
+  //Wait for 1000 millisecond(s)
+  delay(animationSpeed);
+  digitalWrite(8,LOW);
+  //Wait for 1000 millisecond(s)
+  delay(animationSpeed);
+}
