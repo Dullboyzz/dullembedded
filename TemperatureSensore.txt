@@ -1,6 +1,4 @@
-
-
-
+https://www.tinkercad.com/things/7Nq3TL9judD-temperaturesensore
 int baselineTemp=0;
 int celsius=0;
 int fahrenheit=0;
